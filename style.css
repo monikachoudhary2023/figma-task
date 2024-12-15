@@ -1,0 +1,321 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+		*{
+			text-decoration: none;
+		}
+		.navbar{
+			background: #fff; font-family: calibri; padding-right: 15px;
+      padding-left: 15px; max-width: fit-content; justify-content: space-between;
+      align-items: center;
+		}
+		.navdiv{
+			display: flex; align-items: center; justify-content: space-between;
+		}
+		.logo a{
+			font-size: 35px; font-weight: 600; color: rgb(113, 109, 243);padding-right: 20px;
+		}
+		li{
+			list-style: none;
+       display: inline-block;
+       padding: 10px;
+		}
+    li a:hover{
+            color: aliceblue;
+    }
+		li a{
+			color: rgb(43, 36, 36);
+       font-size: 18px; 
+       font-weight: bold;
+      margin-right: 25px;
+		}
+		button{
+			background-color: rgb(166, 147, 241); margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+		}
+		button a{
+			color: white; font-weight: bold; font-size: 15px;
+		}
+        button start{
+          display: flex;
+          align-items: center;
+        }
+
+      
+ .container {
+          display: flex;
+          width: 80%;
+          height: 60%;
+          background-color: #ffffff;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          border-radius: 10px;
+          overflow: hidden;
+      }
+      
+.text-side {
+          flex: 1;
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          background-color: #f0f8ff;
+      }
+      
+.text-side h1 {
+          margin-bottom: 20px;
+          color: #333;
+      }
+      
+.text-side p {
+          margin-bottom: 20px;
+          color: #555;
+          line-height: 1.6;
+      }
+      
+.text-side button {
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          background-color: #007bff;
+          color: #fff;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+      }
+      
+.text-side button:hover {
+          background-color: #0056b3;
+      }
+.container {
+  width: 1200px;
+}      
+      
+.image-side {
+          flex: 1;
+          background-color: #e0e0e0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+      
+.image-side img {
+          max-width: 100%;
+          max-height: 100%;
+          object-fit: cover;
+      }
+
+      .container2 {
+        display: flex;
+        width: 80%;
+        height: 40%;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        overflow: hidden;
+        max-width: 1200px;
+    }
+    
+    .text-side {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #d0f0c0;
+        text-align: center;
+    }
+    
+    .text-side h1 {
+        font-size: 2rem;
+        color: #333;
+    }
+    
+    .paragraph-side {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f8ff;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .paragraph-side p {
+        font-size: 1rem;
+        color: #555;
+        line-height: 1.0;
+    }
+    .image-row {
+      display: flex;
+      gap: 10px; 
+      width: 1200px;
+  }
+  
+  .image-row img {
+      display: block;
+      object-fit: cover; 
+      border: 2px solid #ddd;
+      border-radius: 5px;
+      width: 300px;
+      height: 200px;
+  }          
+  .image-container { 
+    padding: 10px; 
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    width: 1200px;
+}
+
+.image-container img {
+    width: 800px;
+    height: 200; 
+    border-radius: 5px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    display: block;
+}  
+.text-container {
+  width: 1200px; /* Adjust the width of the div */
+  padding: 20px; /* Space inside the div */
+  background-color: #ffffff; /* Background color of the div */
+  text-align: center; /* Center align text inside the div */
+  margin: 0 auto;
+  display: block;
+}
+.text-container h1 {
+  font-size: 2rem; /* Size of the heading */
+  margin-bottom: 10px; /* Space below the heading */
+  color: #333;
+}
+
+.text-container p {
+  font-size: 1rem; /* Size of the paragraph text */
+  color: #555;
+  line-height: 1.0; /* Line height for better readability */
+}
+/* container3 start */
+.container3 {
+  display: flex;
+  width: 1200px;
+  height: 60%;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.left-side, .right-side {
+  flex: 2; /* Divide the container into equal parts */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-side {
+  background-color:#ffff; 
+}
+
+.right-side {
+  background-color: #ffff; 
+}
+
+.left-side p, .right-side p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.left-side button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.left-side button:hover {
+  background-color: #0056b3;
+}
+
+
+
+.container4 {
+  display: flex;
+  width: 1200px;
+  height: 500px;
+  background-color: #ffffff;
+  overflow: hidden;
+
+}
+
+.left-side1, .right-side1 {
+  
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.left-side1 {
+  background-color: #ffffff; /* Light blue background for left side */
+}
+
+.left-side1 img {
+  max-width: 250px;
+  max-height: 500px;
+  object-fit: contain; /* Ensures the image fits within its container */
+  border-radius: 10px; /* Optional rounded corners for the image */
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+.right-side1 {
+  background-color: #fff4e6; /* Light orange background for right side */
+  text-align: left;
+  align-items: flex-start;
+}
+
+.right-side1 h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.right-side1 p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Team Section */
+.team {
+  padding: 50px;
+  background-color: #f9f9ff;
+  text-align: center;
+}
+
+.team-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.team-card {
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.team-card img {
+  border-radius: 50%;
+}
