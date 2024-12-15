@@ -13,7 +13,7 @@
 		}
 		.navbar{
 			background: #fff; font-family: calibri; padding-right: 15px;
-      padding-left: 15px; max-width: fit-content; justify-content: space-between;
+      padding-left: 15px;  justify-content: space-between;
       align-items: center;
 		}
 		.navdiv{
@@ -53,8 +53,6 @@
           width: 80%;
           height: 60%;
           background-color: #ffffff;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-          border-radius: 10px;
           overflow: hidden;
       }
       
@@ -65,7 +63,7 @@
           flex-direction: column;
           justify-content: center;
           align-items: flex-start;
-          background-color: #f0f8ff;
+          background-color: #ffffff;
       }
       
 .text-side h1 {
@@ -92,13 +90,10 @@
 .text-side button:hover {
           background-color: #0056b3;
       }
-.container {
-  width: 1200px;
-}      
-      
+   
 .image-side {
           flex: 1;
-          background-color: #e0e0e0;
+          background-color:  #ffffff;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -115,10 +110,8 @@
         width: 80%;
         height: 40%;
         background-color: #ffffff;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        border-radius: 10px;
         overflow: hidden;
-        max-width: 1200px;
+       
     }
     
     .text-side {
@@ -126,7 +119,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #d0f0c0;
+        background-color: #ffffff;
         text-align: center;
     }
     
@@ -140,7 +133,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #f0f8ff;
+        background-color: #ffffff;
         text-align: center;
         padding: 20px;
     }
@@ -153,7 +146,7 @@
     .image-row {
       display: flex;
       gap: 10px; 
-      width: 1200px;
+      
   }
   
   .image-row img {
@@ -272,14 +265,14 @@
 .left-side1 img {
   max-width: 250px;
   max-height: 500px;
-  object-fit: contain; /* Ensures the image fits within its container */
-  border-radius: 10px; /* Optional rounded corners for the image */
+  object-fit: contain; 
+  border-radius: 10px;
   padding-left: 10px;
   padding-right: 50px;
 }
 
 .right-side1 {
-  background-color: #fff4e6; /* Light orange background for right side */
+  background-color: #fff4e6; 
   text-align: left;
   align-items: flex-start;
 }
@@ -318,4 +311,107 @@
 
 .team-card img {
   border-radius: 50%;
+}
+/* Newsletter */
+.newsletter {
+  padding: 50px;
+  height: 400px;
+  display: block;
+  background: #6c63ff;
+  color: #fff;
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+
+}
+
+.subscribe-box input {
+  padding: 10px;
+  width: 250px;
+  line-height: 1.6;
+}
+
+.subscribe-btn {
+  padding: 10px 20px;
+  background: orange;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer Container */
+footer {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 40px 0;
+}
+
+.footer-container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1 1 20%;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #000;
+  font-weight: bold;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+
+}
+
+.footer-section ul li a {
+  color: #666;
+  display: block;
+  transition: 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #007BFF;
+}
+
+.footer-section p {
+  font-size: 14px;
+  color: #777;
+  line-height: 1.5;
+}
+
+/* Company Logo and Social Icons */
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+.social-icons a img {
+  width: 25px;
+  margin: 10px 5px 0 0;
+  opacity: 0.7;
+  transition: 0.3s ease;
+}
+
+.social-icons a img:hover {
+  opacity: 1;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+  color: #666;
 }
